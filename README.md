@@ -13,5 +13,5 @@ Inside this repository, there are 4 folders to be found:<br>
 3-) "Maps" which contains the different maps to be tested.<br>
 4-) "Skel2Graph3D" which is an open-source toolbox used in the image processing of the maps.<br><br>
 
-More feature are to be added in the next versions including creating a GUI (Graphical User Interface), to enable user-friendly interaction with the simulation environment.<br>
+More features are to be added in the next versions including creating a GUI (Graphical User Interface), to enable user-friendly interactions with the simulation environment.<br>
 Stay Tuned :)
