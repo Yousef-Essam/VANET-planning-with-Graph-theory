@@ -9,7 +9,7 @@ No topology control is applied by default. Only the UDG is shown.<br>
 
 Inside this repository, there are 4 folders to be found:<br>
 1-) "AssetFunctions" which contains complementary functions used to implement the different algorithms used in the simulation.<br>
-2-) "TopologyControl" which contains the Topology Control Algorithm Functions.<br>
+2-) "TopologyControl" which contains the Topology Control Algorithms Functions.<br>
 3-) "Maps" which contains the different maps to be tested.<br>
 4-) "Skel2Graph3D" which is an open-source toolbox used in the image processing of the maps.<br><br>
 
