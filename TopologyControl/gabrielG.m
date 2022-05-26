@@ -21,7 +21,7 @@ function H = gabrielG(G, x, y)
             node = N(j);
             
             dist = sqrt((Xm - x(node))^2 + (Ym - y(node))^2);
-            if (dist <= radius && x(node) ~= x(s) && x(node) ~= x(t) && y(node) ~= y(s) && y(node) ~= y(t))
+            if (dist <= radius && ~(x(node) == x(s) && y(node) == y(s)) && ~(x(node) == x(t) && y(node) == y(t)))
                 acceptable = false;
                 
                 break;

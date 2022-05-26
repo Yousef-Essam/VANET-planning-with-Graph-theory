@@ -4,10 +4,10 @@ function motionFig = simulate(map, topology, transRange, save, lod, plotResults)
     motionFig = figure(1);
     motionFig.WindowState = 'maximized';
     hold on; 
-    image(img); 
+     
     [g, y, x] = image2graph(['map' int2str(map) '.jpg']);
     p = plot(g, 'xdata', x, 'ydata', y);
-
+    image(img);
 
 
     n = numnodes(g);                                                   %creating a variable contains the nimber of nodes because it will be used a lot                                                     % creating a cell to contain the coordinates of motion of every node
